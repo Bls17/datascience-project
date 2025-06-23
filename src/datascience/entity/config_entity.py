@@ -16,3 +16,9 @@ class DataValidationConfig:
     unzip_data_dir: Path
     STATUS_FILE: str
     all_schema: dict
+
+
+@dataclass
+class DataTransformationConfig:
+    root_dir: Path
+    data_path: Path
